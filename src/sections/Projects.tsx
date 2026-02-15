@@ -16,12 +16,12 @@ const projects = [
     color: 'from-neon-cyan to-blue-500',
   },
   {
-    title: 'Medical Image Diagnosis',
-    description: 'AI-powered system for detecting diseases from X-ray and MRI images. Achieved 96% accuracy on pneumonia detection using CNN architecture.',
+    title: 'Brain Cancer Detection',
+    description: 'Deep learning-based system for automated brain tumor detection and classification from MRI scans. Implements multiple CNN architectures with transfer learning.',
     image: null,
     category: 'Computer Vision',
-    tags: ['PyTorch', 'CNN', 'OpenCV', 'Streamlit'],
-    github: 'https://github.com',
+    tags: ['TensorFlow', 'Keras', 'CNN', 'Transfer Learning', 'OpenCV', 'Medical Imaging', 'MRI'],
+    github: 'https://github.com/EslamHany2002/Brain-cancer-Detection-models',
     demo: 'https://demo.com',
     icon: Eye,
     color: 'from-neon-purple to-pink-500',
@@ -221,7 +221,7 @@ export function Projects() {
         {/* View More */}
         <div className={`text-center mt-12 transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <a
-            href="https://github.com"
+            href="https://github.com/EslamHany2002"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 glass rounded-xl text-white hover:border-neon-cyan/50 transition-all group"

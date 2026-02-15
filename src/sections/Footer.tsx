@@ -10,10 +10,10 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Mail, href: 'mailto:taalab@example.com', label: 'Email' },
+  { icon: Github, href: 'https://github.com/EslamHany2002', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/eslam-hany/', label: 'LinkedIn' },
+  // { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Mail, href: 'mailto:eslamhanyriad@gmail.com', label: 'Email' },
 ];
 
 export function Footer() {

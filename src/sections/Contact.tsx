@@ -24,9 +24,9 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: Github, label: 'GitHub', href: 'https://github.com' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
-  { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
+  { icon: Github, label: 'GitHub', href: 'https://github.com/EslamHany2002' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/eslam-hany/' },
+  // { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
 ];
 
 export function Contact() {
