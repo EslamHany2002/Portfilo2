@@ -1,4 +1,4 @@
-import { Brain, Heart, Github, Linkedin, Twitter, Mail, ArrowUp } from 'lucide-react';
+import { Brain, Heart, Github, Linkedin, Mail, ArrowUp } from 'lucide-react';
 
 const navLinks = [
   { name: 'Home', href: '#home' },

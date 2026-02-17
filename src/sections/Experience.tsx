@@ -4,7 +4,7 @@ import { Briefcase, GraduationCap, Award, Calendar, MapPin, HeartHandshake, User
 const experiences = [
   {
     type: 'work',
-    title: 'Senior AI Engineer',
+    title: 'Senior Tech Support',
     company: 'AMIT Learning',
     location: 'Cairo, Egypt',
     period: 'Jan 2025 - Present',

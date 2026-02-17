@@ -165,8 +165,8 @@ export function About() {
                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-space-light to-space overflow-hidden">
                   {/* Profile Image */}
                   <img
-                    src="/profile.png"
-                    alt="Taalab - AI Developer"
+                    src="./profile.png"
+                    alt="Eslam - AI Developer"
                     className="w-full h-full object-cover"
                   />
                 </div>
