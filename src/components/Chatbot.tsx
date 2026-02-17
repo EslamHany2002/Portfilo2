@@ -7,18 +7,18 @@ interface Message {
 }
 
 const quickQuestions = [
-  'Who is Taalab?',
+  'Who is Eslam?',
   'What skills do you have?',
   'Show me your projects',
   'How can I contact you?',
 ];
 
 const responses: Record<string, string> = {
-  'who is taalab': `I'm Taalab, an AI Developer with 5+ years of experience building intelligent systems. I specialize in Machine Learning, Deep Learning, and Natural Language Processing.`,
+  'who is Eslam': `I'm Eslam, an AI Developer with 2+ years of experience building intelligent systems. I specialize in Machine Learning, Deep Learning, and Natural Language Processing.`,
   'what skills do you have': `I have expertise in:\n• Python, TensorFlow, PyTorch\n• Machine Learning & Deep Learning\n• NLP & Computer Vision\n• MLOps & Cloud Platforms\n• Data Engineering & Visualization`,
   'show me your projects': `I've worked on various projects including:\n• Arabic Sentiment Analyzer (94% accuracy)\n• Medical Image Diagnosis System\n• Stock Price Predictor with LSTM\n• Real-time Fraud Detection\n• Smart Chatbot Assistant\n\nCheck out the Projects section for more details!`,
-  'how can i contact you': `You can reach me through:\n• Email: taalab@example.com\n• LinkedIn: linkedin.com/in/taalab\n• GitHub: github.com/taalab\n\nOr fill out the contact form in the Contact section!`,
-  'default': `I'm not sure I understand. You can ask me about:\n• Who Taalab is\n• His skills and expertise\n• His projects\n• How to contact him\n\nOr select a quick question below!`,
+  'how can i contact you': `You can reach me through:\n• Email: eslamhanyriad@gmail.com\n• LinkedIn: linkedin.com/in/eslam-hany\n• GitHub: github.com/EslamHany2002\n\nOr fill out the contact form in the Contact section!`,
+  'default': `I'm not sure I understand. You can ask me about:\n• Who Eslam is\n• His skills and expertise\n• His projects\n• How to contact him\n\nOr select a quick question below!`,
 };
 
 function findResponse(input: string): string {
