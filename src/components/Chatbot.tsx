@@ -36,7 +36,7 @@ function findResponse(input: string): string {
 export function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'bot', content: 'Hello! I\'m Taalab\'s AI assistant. How can I help you today?' },
+    { role: 'bot', content: 'Hello! I\'m Eslam\'s AI assistant. How can I help you today?' },
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
