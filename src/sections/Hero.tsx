@@ -100,7 +100,7 @@ export function Hero() {
         {/* Social Links */}
         <div className="flex items-center justify-center gap-6 animate-slide-up" style={{ animationDelay: '0.6s' }}>
           <a
-            href="https://github.com"
+            href="https://github.com/EslamHany2002"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-xl glass text-gray-400 hover:text-neon-cyan hover:border-neon-cyan/50 transition-all"
@@ -108,7 +108,7 @@ export function Hero() {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/eslam-hany"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-xl glass text-gray-400 hover:text-neon-cyan hover:border-neon-cyan/50 transition-all"
@@ -116,7 +116,7 @@ export function Hero() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="mailto:taalab@example.com"
+            href="mailto:eslamhanyriad@gmail.com"
             className="w-12 h-12 flex items-center justify-center rounded-xl glass text-gray-400 hover:text-neon-cyan hover:border-neon-cyan/50 transition-all"
           >
             <Mail className="w-5 h-5" />

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Brain, Code, Database, LineChart, Cpu, Network } from 'lucide-react';
 
 const stats = [
-  { value: 5, suffix: '+', label: 'Years Experience' },
+  { value: 2, suffix: '+', label: 'Years Experience' },
   { value: 50, suffix: '+', label: 'Projects Completed' },
   { value: 20, suffix: '+', label: 'AI Models Built' },
   { value: 100, suffix: '%', label: 'Client Satisfaction' },
