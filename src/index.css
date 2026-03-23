@@ -288,6 +288,20 @@
   z-index: 0;
 }
 
+/* للـ gradient الأرجواني */
+.text-gradient-purple {
+  background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* للـ gradient الأخضر */
+.text-gradient-green {
+  background: linear-gradient(135deg, #22c55e 0%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Section Styles */
 section {
   position: relative;

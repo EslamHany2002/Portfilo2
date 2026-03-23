@@ -8,6 +8,9 @@ import { Projects } from './sections/Projects';
 import { Experience } from './sections/Experience';
 import { Contact } from './sections/Contact';
 import { Footer } from './sections/Footer';
+import { WorkExperience } from './sections/WorkExperience';
+import { Volunteering } from './sections/Volunteering';
+import { Education } from './sections/Education';
 import './App.css';
 
 function App() {
@@ -24,8 +27,11 @@ function App() {
         <Hero />
         <About />
         <Skills />
-        <Projects />
-        <Experience />
+        {/* <Projects /> */}
+        <WorkExperience />
+        <Volunteering />
+        <Education />
+        {/* <Experience /> */}
         <Contact />
       </main>
       
