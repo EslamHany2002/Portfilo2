@@ -165,7 +165,7 @@ export function About() {
                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-space-light to-space overflow-hidden">
                   {/* Profile Image */}
                   <img
-                    src="./dist/Eslam2.jpeg"
+                    src="./Eslam2.jpeg"
                     alt="Eslam - AI Developer"
                     className="w-full h-full object-cover"
                   />
