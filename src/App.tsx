@@ -1,11 +1,11 @@
 import { ParticleBackground } from './components/ParticleBackground';
 import { Navigation } from './components/Navigation';
-import { Chatbot } from './components/Chatbot';
+// import { Chatbot } from './components/Chatbot';
 import { Hero } from './sections/Hero';
 import { About } from './sections/About';
 import { Skills } from './sections/Skills';
-import { Projects } from './sections/Projects';
-import { Experience } from './sections/Experience';
+// import { Projects } from './sections/Projects';
+// import { Experience } from './sections/Experience';
 import { Contact } from './sections/Contact';
 import { Footer } from './sections/Footer';
 import { WorkExperience } from './sections/WorkExperience';
@@ -39,7 +39,7 @@ function App() {
       <Footer />
       
       {/* Chatbot Widget */}
-      <Chatbot />
+      {/* <Chatbot /> */}
     </div>
   );
 }

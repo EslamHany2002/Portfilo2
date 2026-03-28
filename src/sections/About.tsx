@@ -3,8 +3,8 @@ import { Brain, Code, Database, LineChart, Cpu, Network } from 'lucide-react';
 
 const stats = [
   { value: 2, suffix: '+', label: 'Years Experience' },
-  { value: 50, suffix: '+', label: 'Projects Completed' },
-  { value: 20, suffix: '+', label: 'AI Models Built' },
+  { value: 10, suffix: '+', label: 'Projects Completed' },
+  { value: 15, suffix: '+', label: 'AI Models Built' },
   { value: 100, suffix: '%', label: 'Client Satisfaction' },
 ];
 
@@ -165,7 +165,7 @@ export function About() {
                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-space-light to-space overflow-hidden">
                   {/* Profile Image */}
                   <img
-                    src="./profile.png"
+                    src="./dist/Eslam2.jpeg"
                     alt="Eslam - AI Developer"
                     className="w-full h-full object-cover"
                   />
@@ -191,21 +191,13 @@ export function About() {
             
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                Hello! I'm Eslam, an AI Developer with a deep passion for creating 
-                intelligent systems that push the boundaries of what's possible. My journey 
-                in the world of artificial intelligence began over 5 years ago, and since 
-                then, I've been obsessed with turning complex data into actionable insights.
+                Hello! I'm Eslam, an AI Developer passionate about building intelligent solutions that solve real-world problems. My journey in artificial intelligence started during my university years, where I developed a strong foundation in machine learning, data analysis, and software development.
               </p>
               <p>
-                I specialize in building end-to-end AI solutions, from data collection and 
-                preprocessing to model deployment and monitoring. Whether it's developing 
-                cutting-edge NLP models, creating computer vision systems, or designing 
-                recommendation engines, I bring a problem-solving mindset to every project.
+                I have hands-on experience working on end-to-end AI projects, including data preprocessing, model building, and deployment. I’ve worked on applications in areas such as computer vision and data-driven systems, always focusing on delivering practical and efficient solutions.
               </p>
               <p>
-                When I'm not training models or debugging code, you'll find me exploring 
-                the latest research papers, contributing to open-source projects, or 
-                mentoring aspiring data scientists.
+                Beyond technical skills, I enjoy continuous learning, exploring new tools and technologies, and improving my problem-solving abilities. I'm also passionate about sharing knowledge and supporting others in their learning journey.              
               </p>
             </div>
 

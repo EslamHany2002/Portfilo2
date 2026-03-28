@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { GraduationCap, Award, Calendar, MapPin } from 'lucide-react';
+import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 
 const education = [
   {
@@ -17,12 +17,12 @@ const education = [
   },
 ];
 
-const certifications = [
-  { name: 'AWS Machine Learning Specialty', issuer: 'Amazon Web Services', year: '2023' },
-  { name: 'TensorFlow Developer Certificate', issuer: 'Google', year: '2022' },
-  { name: 'Professional Data Engineer', issuer: 'Google Cloud', year: '2021' },
-  { name: 'Deep Learning Specialization', issuer: 'Coursera / deeplearning.ai', year: '2020' },
-];
+// const certifications = [
+//   { name: 'AWS Machine Learning Specialty', issuer: 'Amazon Web Services', year: '2023' },
+//   { name: 'TensorFlow Developer Certificate', issuer: 'Google', year: '2022' },
+//   { name: 'Professional Data Engineer', issuer: 'Google Cloud', year: '2021' },
+//   { name: 'Deep Learning Specialization', issuer: 'Coursera / deeplearning.ai', year: '2020' },
+// ];
 
 export function Education() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -114,7 +114,7 @@ export function Education() {
           ))}
         </div>
 
-        {/* Certifications */}
+        {/* Certifications
         <div className={`transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h3 className="text-2xl sm:text-3xl font-bold text-white text-center mb-12">
             Professional <span className="text-gradient-purple">Certifications</span>
@@ -135,7 +135,7 @@ export function Education() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

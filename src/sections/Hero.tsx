@@ -82,11 +82,11 @@ export function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-slide-up" style={{ animationDelay: '0.4s' }}>
           <button
-            onClick={() => scrollToSection('#projects')}
+            onClick={() => scrollToSection('#experience')}
             className="btn-primary flex items-center gap-2"
           >
             <Sparkles className="w-5 h-5" />
-            View My Work
+            View My Experience
           </button>
           <button
             onClick={() => scrollToSection('#contact')}
